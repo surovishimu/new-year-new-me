@@ -1,0 +1,53 @@
+*{
+    font-family: 'Alkatra', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Lily Script One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-container {
+    background-image: url(../image/banner3.png);
+    background-size: cover;
+    width: 1600px;
+    height: 808px;
+    background-repeat: no-repeat;
+
+}
+
+.banner-details {
+    text-align: right;
+    padding: 216px 230px 260px 845px;
+
+}
+
+header h1 {
+    width: 525px;
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-style: normal;
+    line-height: normal;
+}
+
+header p {
+    width: 494px;
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    font-weight: 200px;
+}
+header button{
+width: 150px;
+height: 50px;
+border-radius: 5px;
+background: #FFF;
+border: none;
+color: #005FAC;
+margin-right: 30px;
+font-size: 15px;
+}
