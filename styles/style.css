@@ -168,3 +168,24 @@ color:#005FAC;
 border: none;
 font-size: 15px;
 }
+
+/* footer design */
+.footer-container{
+display: flex;
+width: 1600px;
+height: 400px;
+background:#151414;
+color: white;
+justify-content: space-around;
+align-items: center;
+}
+
+.footer-div1{
+    width: 500px;
+    margin-left: 20px;
+}
+.footer-div2{
+    width: 500px;
+    padding-bottom: 70px;
+
+}
