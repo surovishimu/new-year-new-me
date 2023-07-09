@@ -1,4 +1,6 @@
-*{
+* {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Alkatra', cursive;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Lily Script One', cursive;
@@ -8,6 +10,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* banner design */
 .banner-container {
     background-image: url(../image/banner3.png);
     background-size: cover;
@@ -41,13 +44,64 @@ header p {
     line-height: 26px;
     font-weight: 200px;
 }
-header button{
-width: 150px;
-height: 50px;
-border-radius: 5px;
-background: #FFF;
-border: none;
-color: #005FAC;
-margin-right: 30px;
-font-size: 15px;
+
+header button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    color: #005FAC;
+    margin-right: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* failure section design */
+
+.failure-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.failure-img {
+    width: 451px;
+    height: 898px;
+
+}
+
+.failure-info {
+    margin-right: 200px;
+}
+
+.failure-title {
+    width: 288px;
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.failure-text {
+    width: 416px;
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    margin-bottom: 20px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: #16D887;
+    margin-right: 5px;
 }
