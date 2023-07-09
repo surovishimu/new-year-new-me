@@ -105,3 +105,29 @@ ul li:before {
     color: #16D887;
     margin-right: 5px;
 }
+
+/* planning part design */
+.plan-title{
+color:#151414;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.plan-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.plan-para{
+color:#737272;
+text-align: center;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
